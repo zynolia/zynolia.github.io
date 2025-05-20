@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# F1 Betting League Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application for Formula 1 betting leagues, replacing the traditional spreadsheet-based approach with an interactive, responsive UI.
+
+![F1 Betting League](https://i.imgur.com/TXJ8J3d.png)
+
+## Features
+
+- **Championship Standings**: View overall and race-specific standings
+- **Race Results**: Analyze performance across different races with interactive charts
+- **Place Bets**: Simple interface for predicting race outcomes with validation
+- **User Profiles**: Track your betting history and performance
+- **Responsive UI**: Optimized for both desktop and mobile devices
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```
+git clone https://github.com/yourusername/f1-betting-app.git
+cd f1-betting-app
+```
+
+2. Install dependencies
+```
+npm install
+```
+
+3. Start the development server
+```
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the application in your browser
+
+## How It Works
+
+### Betting Process
+
+1. Navigate to the "Place Bet" section
+2. Select an upcoming race
+3. Predict the top 10 finishers in order
+4. Submit your predictions before the race deadline
+
+### Scoring System
+
+- **Exact position match**: 25 points
+- **Driver in top 10 but wrong position**: 10 points
+- **Position off by only 1 place**: Extra 5 points
+
+## Project Structure
+
+- `/src/components` - React components for different pages and UI elements
+- `/src/types` - TypeScript type definitions
+- `/src/data` - Mock data for development
+
+## Future Enhancements
+
+- User authentication and accounts
+- Database integration for persistent storage
+- Real-time F1 race data integration
+- Team and league management
+- Mobile app version
+
+## Technologies Used
+
+- React.js
+- TypeScript
+- Material UI
+- Chart.js
+- React Router
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
 
-### `npm start`
+## License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the LICENSE file for details.
