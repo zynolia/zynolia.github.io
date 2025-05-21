@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { 
   AppBar, 
   Toolbar, 
@@ -307,7 +307,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter basename="/f1-bet">
+      <Router>
         <Box sx={{ 
           display: 'flex', 
           flexDirection: 'column', 
@@ -378,7 +378,7 @@ function App() {
             </Container>
           </Box>
         </Box>
-      </BrowserRouter>
+      </Router>
     </ThemeProvider>
   );
 }
