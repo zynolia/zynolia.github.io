@@ -2,7 +2,7 @@
   "name": "f1-betting-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zynolia.github.io/f1-bet",
+  "homepage": "https://zynolia.github.io/f1-bet/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
