@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/f1-bet/static/css/main.f855e6bc.css",
-    "main.js": "/f1-bet/static/js/main.cb025eb2.js",
+    "main.js": "/f1-bet/static/js/main.7805bbed.js",
     "static/js/453.3c9adb22.chunk.js": "/f1-bet/static/js/453.3c9adb22.chunk.js",
     "index.html": "/f1-bet/index.html",
     "main.f855e6bc.css.map": "/f1-bet/static/css/main.f855e6bc.css.map",
-    "main.cb025eb2.js.map": "/f1-bet/static/js/main.cb025eb2.js.map",
+    "main.7805bbed.js.map": "/f1-bet/static/js/main.7805bbed.js.map",
     "453.3c9adb22.chunk.js.map": "/f1-bet/static/js/453.3c9adb22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.cb025eb2.js"
+    "static/js/main.7805bbed.js"
   ]
 }
